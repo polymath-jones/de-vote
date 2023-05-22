@@ -6,8 +6,17 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+mongodb = "2"
 actix-web = "4"
+actix-cors = "0.6.4"
+actix-service = "2.0.2"
 serde = {version ="1.0.152",features= ["derive"]}
 serde_json = "1.0.91"
-mongodb = "2"
 derive_more = "0.99.17"
+bcrypt = "0.14.0"
+actix-web-httpauth = "0.8.0"
+jwt = "0.16.0"
+hmac = "0.12.1"
+sha2 = "0.10.6" 
+ed25519-compact ="2.0.4"
+chrono = "0.4.23"

@@ -1,3 +1,5 @@
-pub mod user_controllers;
-pub mod user_services;
-pub mod user_models;
+pub mod controllers;
+pub mod services;
+pub mod models;
+pub mod types;
+pub mod utils;
